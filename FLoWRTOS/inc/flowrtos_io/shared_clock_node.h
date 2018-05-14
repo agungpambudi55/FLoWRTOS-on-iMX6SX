@@ -1,0 +1,51 @@
+/*
+    Copyright (C) 2018 ER2C
+    Politektik Elektronika Negeri Surabaya
+    Agung Pambudi <agung.pambudi5595@gmail.com>
+*/
+
+#ifndef __SHARED_CLOCK_NODE_H__
+#define __SHARED_CLOCK_NODE_H__
+
+/*Here we assume every clock node is shared*/
+typedef enum _shared_clk_index
+{
+    SHARED_CLK_PLL2 = 0,
+    SHARED_CLK_PLL2_PFD0,
+    SHARED_CLK_PLL2_PFD2,
+    SHARED_CLK_PLL3,
+    SHARED_CLK_PLL3_PFD1,
+    SHARED_CLK_PLL3_PFD2,
+    SHARED_CLK_PLL3_PFD3,
+    SHARED_CLK_PLL4,
+    SHARED_CLK_PLL5,
+    SHARED_CLK_OCRAM,
+    SHARED_CLK_FLEXCAN1,
+    SHARED_CLK_FLEXCAN1_IPG,
+    SHARED_CLK_FLEXCAN2,
+    SHARED_CLK_FLEXCAN2_IPG,
+    SHARED_CLK_CANFD,
+    SHARED_CLK_ECSPI1,
+    SHARED_CLK_ECSPI2,
+    SHARED_CLK_ECSPI3,
+    SHARED_CLK_ECSPI4,
+    SHARED_CLK_ECSPI5,
+    SHARED_CLK_QSPI1,
+    SHARED_CLK_QSPI2,
+    SHARED_CLK_SSI1,
+    SHARED_CLK_SSI2,
+    SHARED_CLK_SSI3,
+    SHARED_CLK_UART,
+    SHARED_CLK_UART_IPG,
+    SHARED_CLK_PERIPH2,
+    SHARED_CLK_ALT_OCRAM,
+    SHARED_CLK_I2C1,
+    SHARED_CLK_I2C2,
+    SHARED_CLK_I2C3,
+    SHARED_CLK_I2C4,
+    SHARED_CLK_EPIT1,
+    SHARED_CLK_EPIT2,
+    SHARED_CLK_COUNT
+} shared_clk_index_t;
+
+#endif
